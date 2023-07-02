@@ -12,11 +12,19 @@ All these components need their proportionality constants let's name them as Kp,
 
 We'll first take the input we're getting from the sensor as sensor value and we subract it from the desired value to get the error
 
-error = desired value - sensor value 
+error(e) = desired value (dv) - sensor value(sv) 
 
 Motor speed is final output we need to change so as to turn smoothly
 
+let's assume.
+desired value(dv) = 100
+sensor value(sv) = 0
+
 PROPORTIONAL
+
+let kp be any constant and the value we get as error at time t be e(t)
+
+The formula for error 
 
 
 
